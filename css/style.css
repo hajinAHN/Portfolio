@@ -50,7 +50,7 @@
     width: 1500px;
     height: 600px;
     margin: 0 auto;
-    padding-top: 60px;
+    padding-top: 100px;
     box-sizing: border-box;
 }
 .about > h3{
@@ -62,7 +62,6 @@
     width: 400px;
     height: 400px;
     margin: 50px 0 0 350px;
-    background-color: #999;
 }
 .about p{
     float: left;
@@ -74,45 +73,47 @@
 }
 /* skills */
 .skills{
-    width: 1500px;
-    height: 300px;
+    width: 1000px;
+    height: 150px;
     margin: 0 auto;
-    margin-top: 50px;
-    border: 1px solid black;
+    border: 1px solid #999;
     border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 .skills h3{
     text-align: center;
     margin-top: 15px;
     font-size: 18px;
 }
-.skills img{
-    margin: 35px 10px 0 10px;
+.skills div{
+    width: 800px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
 /* projects */
 .project{
-    margin-top: 50px;
+    margin-top: 200px;
     text-align: center;
     font-size: 17px;
 }
 .project1{
     margin: 0 auto;
     margin-top:50px ;
-    width: 1500px;
+    width: 1200px;
     height: 800px;
 }
 .project1 > img{
-    width: 900px;
-    height: 800px;
     float: left;
-    background-color: #999;
 }
 .project1 > p{
     width: 400px;
     height: 800px;
     margin-left: 200px;
     float: left;
-    background-color: #999;
 }
 .project2{
     margin: 0 auto;
@@ -121,17 +122,13 @@
     height: 800px;
 }
 .project2 > img{
-    width: 900px;
-    height: 800px;
     float: left;
-    background-color: #999;
 }
 .project2 > p{
     width: 400px;
     height: 800px;
     margin-left: 200px;
     float: left;
-    background-color: #999;
 }
 .project3{
     margin: 0 auto;
@@ -157,7 +154,7 @@
     margin: 0 auto;
     width: 100%;
     height: 940px;
-    margin-top: 100px;
+    margin-top: 130px;
     /* background-color: #999; */
     background: url(https://www.worldatlas.com/r/w960-q80/upload/89/5b/56/deep-sea-floor.jpg) no-repeat;
     background-size: cover;
